@@ -1,0 +1,169 @@
+body {
+    /* background-color: rgb(133, 172, 245); */
+    background-color: #5D8AA8;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+    /* width: 25%; */
+    padding: 3% 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.2vw solid black;
+}
+
+nav input {
+    font-size: 1.5vw;
+    text-decoration: none;
+    border: 0.2vw solid black;
+    background-color: #73c0ff;
+    color: white;
+    border-radius: 1vw;
+    padding: 1vw 2vh;
+}
+
+nav input:hover {
+    background-color: #73c0ff9d;
+    cursor: pointer;
+    border-color: #73c0ff;
+    color: black;
+}
+
+main {
+    margin-top: 7vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+/* Settings */
+
+.settings {
+    padding-left: 2vw;
+    font-size: 2vw;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.line span {
+    margin-left: 1vw;
+}
+
+.line select {
+    margin-left: 1vw;
+}
+
+.line input {
+    margin-left: 1vw;
+}
+
+/* Border */
+
+.border {
+    display: none;
+}
+
+.border-btns input{
+    font-size: 1vw;
+    text-decoration: none;
+    border: 0.3vw solid black;
+    background-color: #73c0ff;
+    color: white;
+    border-radius: 1vw;
+    padding: 1.5vh 1vw;
+}
+
+.border-btns input:hover {
+    background-color: #73c0ff9d;
+    cursor: pointer;
+    border-color: #73c0ff;
+    color: black;
+}
+
+.left {
+    border-left-color: red !important;
+}
+
+.top {
+    border-top-color: red !important;
+}
+
+.right {
+    border-right-color: red !important;
+}
+
+.bottom {
+    border-bottom-color: red !important;
+}
+
+/* Border Radius */
+
+.border-radius {
+    /* display: none; */
+}
+
+/* Copy Field */
+
+.copy-block {
+    border-top: 0.2vw solid black;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 20vh;
+}
+
+.copy-field {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: 0.2vw solid black;
+    background-color: black;
+    color: white;
+}
+
+.copy-me-btn {
+    right: 0;
+    position: absolute;
+    bottom: -3.5%;
+    font-size: 1vw;
+    text-decoration: none;
+    border: 0.2vw solid black;
+    background-color: #73c0ff;
+    color: white;
+    /* border-radius: 1vw; */
+    padding: 0.5vh 1vw;
+}
+
+.copy-me-btn:hover {
+    background-color: #73c0ff9d;
+    cursor: pointer;
+    border-color: #73c0ff;
+    color: black;
+}
+
+/* Example side */
+
+.example {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+}
+
+.example-box {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    text-align: center;
+}

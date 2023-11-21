@@ -1,0 +1,113 @@
+/* #id1 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: white;
+} */
+
+/* #anim_block {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+} */
+
+/* #div1, #div2 {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    display: none;
+} */
+
+/* #div1, #div2 {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+} */
+
+/* p {
+    background-color: green;
+    color: white;
+    padding: 10px;
+} */
+
+/* div {
+    background-color: green;
+    margin: 3px;
+    width: 80px;
+    height: 40px;
+    float: left;
+    display: none;
+} */
+
+/* div {
+    margin: 2px;
+} */
+
+/* p {
+    cursor: pointer;
+    color: red;
+}
+
+div {
+    margin: 3px;
+    width: 80px;
+    height: 80px;
+    display: none;
+    float: left;
+}
+
+#one {
+    background-color: green;
+}
+
+#two {
+    background-color: red;
+}
+
+#three {
+    background-color: blue;
+} */
+
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+} */
+
+/* div {
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    background-color: yellow;
+}
+
+div.red {
+    background-color: red;
+} */
+
+/* div {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: yellow;
+} */
+
+/* div {
+    position: absolute;
+    background-color: green;
+    left: 0;
+    top: 30px;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+} */

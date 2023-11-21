@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <input type="button" value="Border" id="borderNav">
+            <input type="button" value="Border Radius" id="borderRadiusNav">
+            <input type="button" value="Color" id="colorNav">
+            <input type="button" value="Transform" id="transformNav">
+            <input type="button" value="Box Shadow" id="boxShadowNav">
+        </nav>
+    </header>
+
+    <main>
+        <div class="settings">
+            <div class="border">
+                <div class="line">
+                    Width: <span>1</span> <input type="range">
+                </div>
+                <div class="line">
+                    Style: <select name="" id="borderType">
+                        <option value="none" selected>None</option>
+                        <option value="solid">Solid</option>
+                        <option value="dotted">Dotted</option>
+                        <option value="dashed">Dashed</option>
+                        <option value="double">Double</option>
+                        <option value="groove">Groove</option>
+                        <option value="ridge">Ridge</option>
+                        <option value="inset">Inset</option>
+                        <option value="outset">Outset</option>
+                    </select>
+                </div>
+                <div class="line">
+                    Color: <input type="color">
+                </div>
+                <div class="line border-btns">
+                    Position: 
+                    <input type="button" value="All">
+                    <input type="button" value="Left" class="left">
+                    <input type="button" value="Top" class="top">
+                    <input type="button" value="Right" class="right">
+                    <input type="button" value="Bottom" class="bottom">
+                </div>
+            </div>
+
+            <div class="border-radius">
+
+            </div>
+
+            <div class="copy-block">
+                <input type="text" class="copy-field" id="copyField"><input type="button" value="Copy me" class="copy-me-btn" id="copyMeBtn">
+            </div>
+        </div>
+        <div class="example">
+            <div class="example-box">
+
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
